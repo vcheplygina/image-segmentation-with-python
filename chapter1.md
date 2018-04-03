@@ -31,11 +31,11 @@ from scipy import misc
 import matplotlib.pyplot as plt
 
 #Load image
-im = misc.imread('OAS1_0001_MR1_slice.png')
+im = misc.imread('https://assets.datacamp.com/production/repositories/2686/datasets/bf213e2d998629caa4cbb3b0f058c601e0226b2a/OAS1_0001_MR1_slice.png')
 im = im/im.max()                                #Perhaps this can be done during imread already?
 
 #Load ground truth
-gt = misc.imread('OAS1_0001_MR1_binary.png')
+gt = misc.imread('https://assets.datacamp.com/production/repositories/2686/datasets/54425d80910603f628e3ce50753afa0a0cbb66f6/OAS1_0001_MR1_binary.png')
 ```
 `@sample_code`
 ```{python}
